@@ -1,8 +1,9 @@
 def upper_words(words):
-"""Преобразует все буквы в строке заглавные"""
-    return words.upper
+"""Преобразует все буквы в строке на заглавные"""
 
-print("Введите строчку")
-words = str(input())
+    return words
 
-letter(words)
+def first_letter_upper(words):
+"""Преобразует только первые буквы в строке в заглавные"""
+
+    return first_words
